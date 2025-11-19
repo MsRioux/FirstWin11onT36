@@ -30,5 +30,6 @@ public class MainActivity extends AppCompatActivity {
     void someOutput()
     {
         System.out.println("Hello World and all that jazz");
+        System.out.println("Farewell and thanks for all the fish!");
     }
 }
