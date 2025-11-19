@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             someOutput();
+            moreOutput();
             return insets;
 
 
@@ -26,6 +27,12 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+
+    void moreOutput()
+    {
+        System.out.println("Now I can do more fabulous stuff");
+    }
+
 
     void someOutput()
     {
