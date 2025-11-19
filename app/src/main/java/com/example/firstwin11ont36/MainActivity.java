@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
     void moreOutput()
     {
         System.out.println("Now I can do more fabulous stuff");
+        System.out.println("Here is another addition to the second method");
     }
 
 
